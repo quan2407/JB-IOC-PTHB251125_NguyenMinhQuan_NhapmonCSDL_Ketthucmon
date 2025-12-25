@@ -1,3 +1,4 @@
+create database roomDB;
 -- Tạo bảng (10 điểm) Tạo 4 bảng Customer, Room, Booking, Payment với cấu trúc và kiểu dữ liệu hợp lý
 create table if not exists customer(
     customer_id varchar(5) primary key not null ,
